@@ -15,12 +15,12 @@ async function setupApp() {
 
     const salt = uniqueId();
 
-    const passwordHash = newAdminPassword.generateHash(salt, 'admin123');
+    const passwordHash = newAdminPassword.generateHash(salt, 'glooft123');
 
     const demoAdmin = {
-      email: 'admin@glooft.com',
-      name: 'glooft',
-      surname: 'Admin',
+      email: 'glooft@ai.com',
+      name: 'GLOOFT',
+      surname: 'glooft',
       enabled: true,
       role: 'owner',
     };
